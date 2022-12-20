@@ -32,6 +32,8 @@ export default function CardFooter() {
 
                 // Add this code to toggle the "day" class on the ToggleThemeBtn element
   const toggleBtn = document.querySelector('.ToggleThemeBtn');
+
+
   if (theme === 'light') {
     toggleBtn.classList.add('blue');
     toggleBtn.classList.remove('day')
@@ -49,10 +51,10 @@ export default function CardFooter() {
                 <a href="https://www.instagram.com/toonchavez/"  >
                     <img src="https://img.icons8.com/fluency/512/instagram-new.png" alt='Instagram icon' className='FooterIcon greyscale'/>
                 </a>
-                <a href="http://"  >
+                <a href="https://www.facebook.com/Toonchavez/"  >
                     <img src="https://img.icons8.com/ios-glyphs/512/facebook.png" alt='facebook icon' className='FooterIcon inverted blue'/>
                 </a>
-                <a href="http://"  >
+                <a href="https://github.com/toonchavez8"  >
                     <img src="https://img.icons8.com/material-outlined/512/github.png" alt='github icon' className='FooterIcon inverted'/>
                 </a>
                 <a className='ToggleThemeBtn' onClick={toggleTheme}>

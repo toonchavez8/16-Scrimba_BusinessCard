@@ -34,6 +34,9 @@
 	margin-top: 4px;
 	padding-top: 2px;
 }
+.white {
+	color: white !important;
+}
 
 .CardHeader .Link {
 	font-size: 0.64rem;
@@ -127,7 +130,11 @@
 .Skill .icon {
 	width: 0.8rem;
 	margin-right: 0.5rem;
-	filter: invert() grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.invertIcon {
+	filter: invert(1) !important;
 }
 
 .Skill > p {
@@ -138,6 +145,7 @@
 	background-color: white;
 	color: #374151;
 	font-weight: 500;
+	border: 1px solid var(--colorPBodyColor);
 }
 
 .email {
@@ -146,5 +154,6 @@
 
 .Linkedin {
 	font-weight: 500;
+	color: rgb(255, 255, 255) !important;
 	background-color: #0077b5;
 }

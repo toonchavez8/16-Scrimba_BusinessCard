@@ -53,19 +53,19 @@ function Skills() {
             <div className="SkillList">
                 <div className="Skill
                 ">
-                    <img src="https://img.icons8.com/ios-filled/512/javascript.png" alt="javascript icon" className='icon'/>
+                    <img src="https://img.icons8.com/ios-filled/512/javascript.png" alt="javascript icon" className='icon invertIcon'/>
                     <p className='SkillText'>JavaScript</p>
                 </div>
                 <div className="Skill">
-                    <img src="https://img.icons8.com/ios-filled/512/react-native.png" alt="react icon" className='icon'/>
+                    <img src="https://img.icons8.com/ios-filled/512/react-native.png" alt="react icon" className='icon invertIcon'/>
                     <p className='SkillText'>React</p>
                 </div>
                 <div className="Skill">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="node icon" className='icon'/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" alt="node icon" className='icon invert'/>
                     <p className='SkillText'>Node</p>
                 </div>
                 <div className="Skill">
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968538.png" alt="PostgreSQL icon" className='icon'/>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968538.png" alt="PostgreSQL icon" className='icon invertIcon'/>
                     <p className='SkillText'>PostgreSQL</p>
                 </div>
                 <div className="Skill">
