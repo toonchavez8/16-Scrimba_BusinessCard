@@ -1,0 +1,67 @@
+/***
+    The new CSS reset - version 1.7.3 (last updated 7.8.2022)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+/* Preferred box-sizing value */
+* {
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a,
+button {
+	cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+	list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+	max-width: 100%;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+	white-space: revert;
+}
+
+/* minimum style to allow to style meter element */
+meter {
+	-webkit-appearance: revert;
+	appearance: revert;
+}
+
+/* fix the feature of 'hidden' attribute.
+   display:revert; revert to element instead of attribute */
+:where([hidden]) {
+	display: none;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+	-webkit-user-drag: element;
+}
+
+:root {
+	--colorSiteBgGray: rgba(35, 37, 44, 1);
+	--colorCardBodyBg: rgba(26, 27, 33, 1);
+	--colorCrdFooterBg: rgba(22, 22, 25, 1);
+	--colorH1HeaderColor: rgba(245, 245, 245, 1);
+	--colorPBodyColor: rgb(204, 202, 202);
+	--colorYellowHighlight: rgba(243, 191, 153, 1);
+	--colorYellowBtn: 243, 191, 153;
+}
+
+body {
+	background-color: var(--colorSiteBgGray);
+
+	overflow-y: hidden;
+}

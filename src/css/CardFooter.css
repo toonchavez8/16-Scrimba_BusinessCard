@@ -1,0 +1,57 @@
+.cardFooter {
+	background: var(--colorCrdFooterBg);
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Footerlinks {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	padding: 0 1.5rem;
+}
+
+.Footerlinks > a {
+	transition: all 0.3s ease-in-out;
+}
+
+.Footerlinks > a:hover {
+	scale: 1.2;
+}
+
+.FooterIcon {
+	width: 2rem;
+	height: 2rem;
+}
+
+.greyscale {
+	filter: grayscale(100%);
+	opacity: 50%;
+	transition: all 0.1s ease-in-out;
+}
+
+.greyscale:hover {
+	opacity: 100%;
+	filter: grayscale(0%);
+}
+
+.inverted {
+	opacity: 50%;
+	filter: invert(1);
+}
+
+.inverted:hover {
+	opacity: 100%;
+}
+
+.blue:hover {
+	filter: invert(41%) sepia(99%) saturate(3922%) hue-rotate(195deg)
+		brightness(96%) contrast(94%);
+}
+
+.day:hover {
+	filter: invert(70%) sepia(87%) saturate(834%) hue-rotate(324deg)
+		brightness(100%) contrast(91%);
+}
